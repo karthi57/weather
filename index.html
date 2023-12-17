@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="searchCard">
+        <input type="text" placeholder="Enter the city">
+        <button class="searchBtn"><img src="./images/search.png" alt=""></button>
+        </div>
+   <span class="error">
+    <p>Please verify the city name entered. It may be invalid.</p>
+   </span>
+   
+    <div class="weather">
+       <div  class="main">
+       <img src="./images/rain.png" class="weather-icon" alt="rain"> 
+        <h1 class="temp">22°C</h1>
+        <h2 class="city">New York</h2>
+    </div>
+    <div class="Sunmodel">
+        
+        <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.493/build/spline-viewer.js"></script>
+        <spline-viewer url="https://prod.spline.design/YdpGqLEDVJ4Z6T11/scene.splinecode"></spline-viewer>
+
+    </div>
+    <div class="details">
+            <div class="col col1">
+                <img src="./images/humidity.png" alt="">
+                <div>
+                    <p class="humidity">55%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="col col2">
+                <img src="./images/wind.png" alt="">
+                <div>
+                    <p class="wind">55km/h</p>
+                    <p >Wind speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
